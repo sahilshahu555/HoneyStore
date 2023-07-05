@@ -41,12 +41,12 @@ margin: 2rem;
   padding: 5px 10px;
   border-radius: 10px;
   margin: 5px;
-  width: 50%;
+  width: 70%;
   font-weight: bold;
 }
 #product-item > button:hover{
 
-  background-color: rgb(124, 118, 118);
+  background-color: rgb(243, 63, 47);
 }
 
 .pagination{
@@ -59,22 +59,25 @@ margin: 2rem;
 }
 
 .pagination button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border-radius: 10px;
   padding: 10px;
   margin:20px ;
 }
 
 #sorting{
- display: flex;
- justify-content: space-between;
- align-items: center;
- margin: 0px 30px;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ margin-top: 20px;
 }
 
 #sorting select{
   background-color:rgb(149, 239, 46) ;
   padding: 5px;
   border-radius: 10px;
+  
 }
 #sorting b{
   color: rgb(255, 255, 255);

@@ -13,7 +13,7 @@ const Product = () => {
   const [sort,setSort]=useState("");
   const [sortBy,setSortBy]=useState("name");
   const [sortOrder, setSortOrder] = useState("asc")
-  const [limit,setLimit]=useState(8);
+  const [limit,setLimit]=useState(12);
 
   
   const getHoney = (params) => {
@@ -85,6 +85,15 @@ console.log(sort)
             <option value="rating">Rating</option>
           </select>
         </div>
+
+        <div className='pagination'>
+        {arr.map((elm,id)=>(
+          <button key={id} disabled={page===elm} onClick={()=>setPage(elm)}
+          style={{backgroundColor:page===elm? "red": 'white'}}
+          >{elm}</button>
+        ))} 
+      </div>
+
         <div id="sort_order_section">
          <b>Sort Order:-</b> 
           <button  onClick={() => {setSortOrder("asc"); setPage(1);}}>ASCENDING</button>
