@@ -1,0 +1,524 @@
+{
+  "honeyData": [
+    {
+      "id": 1,
+      "name": "Sulai Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/SulaiHoneyFront-01.png?v=1683144497&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Untitleddesign.png?v=1683144341&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/2_38edfdc6-3411-4b24-901d-e6e4e5fc93c7.png?v=1683144341&width=420",
+
+      "description":"Tree of life, the Moringa tree is called, because every part of the Moringa tree is high in nutrition and even healing properties. Imagine the nectar from these highly nutritious Moringa flowers, that exactly what comes in a jar of our Moringa Honey. This super light colour and mild flavoured honey is collected by our Bees from the Moringa orchards of Jharkhand and Bihar.",
+      "rating":4,
+      "price": 380.00
+    },
+    {
+      "id": 2,
+      "name": "Central Indian Wild Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gm.png?v=1683144097&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/files/FromthedeepforestsofIndia.jpg?v=1688203321&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gmbacktwo.png?v=1688203321&width=420",
+
+      "description":"This wildflower honey is harvested from the dense forests of Madhya Pradesh and Maharashtra. Extracted from the wild beehives of the Apis Dorsata species of bees, this honey is the oldest and most popular wild honey among our collection.",
+      "rating":3,
+      "price": 320.00
+    },
+    {
+      "id": 3,
+      "name": "Jamun Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gm.png?v=1683144327&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney500gmbacktwo.png?v=1683144327&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gmback.png?v=1683144327&width=420",
+
+      "description":"Jamun honey is Unifloral which means it contains predominantly the nectar of the Jamun flower. Jamun honey is unique in its taste because of the tinge of bitterness it carries. The sweetness, sourness, and the bitter tinge when combined make for a true surprise to your taste buds. ",
+      "rating":5,
+      "price": 400.00
+    },
+    {
+      "id": 4,
+      "name": "Sweet Cliff Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gm.png?v=1683144483&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"The Cliff honey is harvested only in limited quantities every year and is highly sought-after. Now experience this true flavor of the forests by ordering a jar of our cliff honey. The rich flavor of this honey comes from the thousands of wildflowers from which the bees collect the nectar. The untouched pristine purity of the forests will be evident in every spoon of this honey. ",
+      "rating":4,
+      "price": 450.00
+    },
+    {
+      "id": 5,
+      "name": "Lychee Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Front-01_a27eebfb-cdc3-4db7-b0e7-8b063d15f8ec.png?v=1683144335&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"Lychee honey is a light amber-colored honey that comes from the lychee orchards in the Muzzafarpur region in Bihar. This honey is extremely flavourful, light & buttery. Enjoy this raw honey as a sweetener in your drink, warm toast, or desserts. ",
+      "rating":3.5,
+      "price": 480
+    },
+    {
+      "id": 6,
+      "name": "Himalayan Wild Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney250gm.png?v=1683144231&width=640",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney250gmback.png?v=1683144231&width=640",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney500gmback.png?v=1683144231&width=640",
+
+      "description":"This dark amber honey is harvested from wild beehives in the forests of Jim Corbett national park and surrounding area. Harvested every year, during the months of April to May, this honey is one of the most sought after in India. The Honey contains the nectar of various wildflowers in it which makes it all the more healthy",
+      "rating":3.8,
+      "price": 460.00
+    },
+    {
+      "id": 7,
+      "name": "Kashmir Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanHoney250gm.png?v=1683144330&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/files/FromthedeepforestsofIndia.jpg?v=1688203321&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gmbacktwo.png?v=1688203321&width=420",
+
+      "description":"This Amber coloured, velvety honey with the most pleasant aroma comes from the valleys of Kashmir. This honey predominantly contains the nectar of the Acacia tree found in the Kashmir valley. Beekeepers harvest this honey from the beehives of the Apis Mellifera species of bees.",
+      "rating":4.7,
+      "price": 620.00
+    },
+    {
+      "id": 8,
+      "name": "Local Forest Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceLocalForestHoney250gm.png?v=1683144331&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney500gmbacktwo.png?v=1683144327&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gmback.png?v=1683144327&width=420",
+
+      "description":"Jamun honey is Unifloral which means it contains predominantly the nectar of the Jamun flower. Jamun honey is unique in its taste because of the tinge of bitterness it carries. The sweetness, sourness, and the bitter tinge when combined make for a true surprise to your taste buds. ",
+      "rating":4.4,
+      "price": 410.00
+    },
+    {
+      "id": 9,
+      "name": "Wild Acacia Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/250gmWildAcaciaHoneyFront-01.png?v=1683144420&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":" the forests by ordering a jar of our cliff honey. The rich flavor of this honey comes from the thousands of wildflowers from which the bees collect the nectar. The untouched pristine purity of the forests will be evident in every spoon of this honey. ",
+      "rating":4.8,
+      "price": 490.00
+    },
+    {
+      "id": 10,
+      "name": "Tropical Blossom Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceTropicalBlossomHoney250gm.png?v=1683144415&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":" This honey is extremely flavourful, light & buttery. Enjoy this raw honey as a sweetener in your drink, warm toast, or desserts. ",
+      "rating":3.5,
+      "price": 380
+    },
+    {
+      "id": 11,
+      "name": "Sulai (Vana Tulsi) Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/SulaiHoneyFront-01.png?v=1683144497&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Untitleddesign.png?v=1683144341&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/2_38edfdc6-3411-4b24-901d-e6e4e5fc93c7.png?v=1683144341&width=420",
+
+      "description":"In the valleys of Kashmir, Sulai flowers bloom in abundance from the month of August to October. Migratory bees kept in the valleys forage on the nectar of snow-white blossoms of Sulai.",
+      "rating":4.8,
+      "price": 360.00
+    },
+    {
+      "id": 12,
+      "name": "Mangrove Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Front.png?v=1683144335&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/files/FromthedeepforestsofIndia.jpg?v=1688203321&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gmbacktwo.png?v=1688203321&width=420",
+
+      "description":"Harvested from the mangroves of the Sunderbans, this rare and exotic honey provides livelihood to the indigenous people of the Sunderbans. Made by Apis Mellifera species of bees by collecting the nectar from thousands of mangrove flowers, this honey will transport you to the mangroves.",
+      "rating":3.9,
+      "price": 720.00
+    },
+    {
+      "id": 13,
+      "name": "Orange Blossom Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceOrangeBlossomHoney250gm_08efbfca-3bc6-4caf-977e-a73689b39cce.png?v=1683144368&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney500gmbacktwo.png?v=1683144327&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gmback.png?v=1683144327&width=420",
+
+      "description":"Very aromatic and Light amber in colour. This sweet nectar is collected from the orange flowers by the bees. ",
+      "rating":4.1,
+      "price": 800.00
+    },
+    {
+      "id": 14,
+      "name": "Eastern Ghats Wild Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceEasternGhatsWildHoney250gm.png?v=1683144161&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"According to Ayurveda, honey from the forests is considered to have the maximum healing properties. According to modern researchers, dark honey from the forests contains the maximum antioxidants in it. Wild Honey from Honey & Spice fits both these descriptions and is a definite healing superfood. ",
+      "rating":4.1,
+      "price": 295.00
+    },
+    {
+      "id": 15,
+      "name": " Turmeric Wellness Combo",
+      "image": "https://honeyandspice.in/cdn/shop/products/Front.png?v=1683144335&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"In a bowl add a tablespoon of raw wild honey to which add a teaspoon of turmeric powder and a teaspoon of crushed peppercorns ",
+      "rating":4.5,
+      "price": 715.00
+    },
+    {
+      "id": 16,
+      "name": "Himalayan Wild Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney250gm.png?v=1683144231&width=640",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney250gmback.png?v=1683144231&width=640",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney500gmback.png?v=1683144231&width=640",
+
+      "description":" This honey is one of the most sought after in India. The Honey contains the nectar of various wildflowers in it which makes it all the more healthy",
+      "rating":3.9,
+      "price": 660.00
+    },
+    {
+      "id": 17,
+      "name": "Cliff Honey Bitter",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceBitterCliffHoney250gm.png?v=1683144121&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/files/FromthedeepforestsofIndia.jpg?v=1688203321&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gmbacktwo.png?v=1688203321&width=420",
+
+      "description":"This Amber coloured, velvety honey with the most pleasant aroma comes from the valleys of Kashmir. This honey predominantly contains the nectar of the Acacia tree found in the Kashmir valley. Beekeepers harvest this honey from the beehives of the Apis Mellifera species of bees.",
+      "rating":3.2,
+      "price": 520.00
+    },
+    {
+      "id": 18,
+      "name": "Tropical Blossom Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceTropicalBlossomHoney250gm.png?v=1683144415&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney500gmbacktwo.png?v=1683144327&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gmback.png?v=1683144327&width=420",
+
+      "description":" Tropical Blossom honey is unique in its taste because of the tinge of bitterness it carries. The sweetness, sourness, and the bitter tinge when combined make for a true surprise to your taste buds. ",
+      "rating":4.9,
+      "price": 490.00
+    },
+    {
+      "id": 19,
+      "name": "Wild Forest Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceLocalForestHoney250gm.png?v=1683144331&width=640",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"  the bees collect the nectar. The untouched pristine purity of the forests will be evident in every spoon of this honey. ",
+      "rating":4.4,
+      "price": 430.00
+    },
+    {
+      "id": 20,
+      "name": " Blossom Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceTropicalBlossomHoney250gm.png?v=1683144415&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":" This honey is extremely flavourful, light & buttery. Enjoy this raw honey as a sweetener in your drink, warm toast, or desserts. ",
+      "rating":3.9,
+      "price": 980
+    },
+    {
+      "id": 21,
+      "name": " Best Moringa Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/1_240cbed3-5d54-4f2e-aa2f-5bcd557f8660.png?crop=center&height=526&v=1683144341&width=360",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Untitleddesign.png?v=1683144341&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/2_38edfdc6-3411-4b24-901d-e6e4e5fc93c7.png?v=1683144341&width=420",
+
+      "description":"Tree of life, the Moringa tree is called, because every part of the Moringa tree is high in nutrition and even healing properties. Imagine the nectar from these highly nutritious Moringa flowers, that exactly what comes in a jar of our Moringa Honey. This super light colour and mild flavoured honey is collected by our Bees from the Moringa orchards of Jharkhand and Bihar.",
+      "rating":4.3,
+      "price": 680.00
+    },
+    {
+      "id": 22,
+      "name": " Indian Wild Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gm.png?v=1683144097&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/files/FromthedeepforestsofIndia.jpg?v=1688203321&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gmbacktwo.png?v=1688203321&width=420",
+
+      "description":"This wildflower honey is harvested from the dense forests of Madhya Pradesh and Maharashtra. Extracted from the wild beehives of the Apis Dorsata species of bees, this honey is the oldest and most popular wild honey among our collection.",
+      "rating":3.8,
+      "price": 370.00
+    },
+    {
+      "id": 23,
+      "name": "Green Jamun Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gm.png?v=1683144327&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney500gmbacktwo.png?v=1683144327&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gmback.png?v=1683144327&width=420",
+
+      "description":"Jamun honey is Unifloral which means it contains predominantly the nectar of the Jamun flower. Jamun honey is unique in its taste because of the tinge of bitterness it carries. The sweetness, sourness, and the bitter tinge when combined make for a true surprise to your taste buds. ",
+      "rating":4.3,
+      "price": 450.00
+    },
+    {
+      "id": 24,
+      "name": " Cliff Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gm.png?v=1683144483&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"The Cliff honey is harvested only in limited quantities every year and is highly sought-after. Now experience this true flavor of the forests by ordering a jar of our cliff honey. The rich flavor of this honey comes from the thousands of wildflowers from which the bees collect the nectar. The untouched pristine purity of the forests will be evident in every spoon of this honey. ",
+      "rating":4.7,
+      "price": 490.00
+    },
+    {
+      "id": 25,
+      "name": "Red Lychee Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Front-01_a27eebfb-cdc3-4db7-b0e7-8b063d15f8ec.png?v=1683144335&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"Lychee honey is a light amber-colored honey that comes from the lychee orchards in the Muzzafarpur region in Bihar. This honey is extremely flavourful, light & buttery. Enjoy this raw honey as a sweetener in your drink, warm toast, or desserts. ",
+      "rating":3.8,
+      "price": 780
+    },
+    {
+      "id": 26,
+      "name": "South Indian Wild Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney250gm.png?v=1683144231&width=640",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney250gmback.png?v=1683144231&width=640",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney500gmback.png?v=1683144231&width=640",
+
+      "description":"This dark amber honey is harvested from wild beehives in the forests of Jim Corbett national park and surrounding area. Harvested every year, during the months of April to May, this honey is one of the most sought after in India. The Honey contains the nectar of various wildflowers in it which makes it all the more healthy",
+      "rating":4.8,
+      "price": 610.00
+    },
+    {
+      "id": 27,
+      "name": " Mount Kashmir Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanHoney250gm.png?v=1683144330&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/files/FromthedeepforestsofIndia.jpg?v=1688203321&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gmbacktwo.png?v=1688203321&width=420",
+
+      "description":"This Amber coloured, velvety honey with the most pleasant aroma comes from the valleys of Kashmir. This honey predominantly contains the nectar of the Acacia tree found in the Kashmir valley. Beekeepers harvest this honey from the beehives of the Apis Mellifera species of bees.",
+      "rating":4.1,
+      "price": 600.00
+    },
+    {
+      "id": 28,
+      "name": "Local Forest Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceLocalForestHoney250gm.png?v=1683144331&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney500gmbacktwo.png?v=1683144327&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gmback.png?v=1683144327&width=420",
+
+      "description":"Jamun honey is Unifloral which means it contains predominantly the nectar of the Jamun flower. Jamun honey is unique in its taste because of the tinge of bitterness it carries. The sweetness, sourness, and the bitter tinge when combined make for a true surprise to your taste buds. ",
+      "rating":4.1,
+      "price": 420.00
+    },
+    {
+      "id": 29,
+      "name": " Acacia Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/250gmWildAcaciaHoneyFront-01.png?v=1683144420&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":" the forests by ordering a jar of our cliff honey. The rich flavor of this honey comes from the thousands of wildflowers from which the bees collect the nectar. The untouched pristine purity of the forests will be evident in every spoon of this honey. ",
+      "rating":4.1,
+      "price": 450.00
+    },
+    {
+      "id": 30,
+      "name": "Tropical Blossom Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceTropicalBlossomHoney250gm.png?v=1683144415&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":" This honey is extremely flavourful, light & buttery. Enjoy this raw honey as a sweetener in your drink, warm toast, or desserts. ",
+      "rating":3,
+      "price": 390
+    },
+    {
+      "id": 31,
+      "name": "Sulai (Vana Tulsi) Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/SulaiHoneyFront-01.png?v=1683144497&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Untitleddesign.png?v=1683144341&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/2_38edfdc6-3411-4b24-901d-e6e4e5fc93c7.png?v=1683144341&width=420",
+
+      "description":"In the valleys of Kashmir, Sulai flowers bloom in abundance from the month of August to October. Migratory bees kept in the valleys forage on the nectar of snow-white blossoms of Sulai.",
+      "rating":3.4,
+      "price": 460.00
+    },
+    {
+      "id": 32,
+      "name": "Mangrove Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Front.png?v=1683144335&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/files/FromthedeepforestsofIndia.jpg?v=1688203321&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gmbacktwo.png?v=1688203321&width=420",
+
+      "description":"Harvested from the mangroves of the Sunderbans, this rare and exotic honey provides livelihood to the indigenous people of the Sunderbans. Made by Apis Mellifera species of bees by collecting the nectar from thousands of mangrove flowers, this honey will transport you to the mangroves.",
+      "rating":4.9,
+      "price": 700.00
+    },
+    {
+      "id": 33,
+      "name": "Orange Blossom Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceOrangeBlossomHoney250gm_08efbfca-3bc6-4caf-977e-a73689b39cce.png?v=1683144368&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney500gmbacktwo.png?v=1683144327&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gmback.png?v=1683144327&width=420",
+
+      "description":"Very aromatic and Light amber in colour. This sweet nectar is collected from the orange flowers by the bees. ",
+      "rating":4,
+      "price": 400.00
+    },
+    {
+      "id": 34,
+      "name": "Eastern Ghats Wild Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceEasternGhatsWildHoney250gm.png?v=1683144161&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"According to Ayurveda, honey from the forests is considered to have the maximum healing properties. According to modern researchers, dark honey from the forests contains the maximum antioxidants in it. Wild Honey from Honey & Spice fits both these descriptions and is a definite healing superfood. ",
+      "rating":4.7,
+      "price": 395.00
+    },
+    {
+      "id": 35,
+      "name": " Turmeric Wellness Combo",
+      "image": "https://honeyandspice.in/cdn/shop/products/Front.png?v=1683144335&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"In a bowl add a tablespoon of raw wild honey to which add a teaspoon of turmeric powder and a teaspoon of crushed peppercorns ",
+      "rating":4.2,
+      "price": 915.00
+    },
+    {
+      "id": 36,
+      "name": "Himalayan Wild Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney250gm.png?v=1683144231&width=640",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney250gmback.png?v=1683144231&width=640",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceHimalayanWildHoney500gmback.png?v=1683144231&width=640",
+
+      "description":" This honey is one of the most sought after in India. The Honey contains the nectar of various wildflowers in it which makes it all the more healthy",
+      "rating":2.9,
+      "price": 560.00
+    },
+    {
+      "id": 37,
+      "name": "Cliff Honey Bitter",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceBitterCliffHoney250gm.png?v=1683144121&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/files/FromthedeepforestsofIndia.jpg?v=1688203321&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceCentralIndianWildHoney250gmbacktwo.png?v=1688203321&width=420",
+
+      "description":"This Amber coloured, velvety honey with the most pleasant aroma comes from the valleys of Kashmir. This honey predominantly contains the nectar of the Acacia tree found in the Kashmir valley. Beekeepers harvest this honey from the beehives of the Apis Mellifera species of bees.",
+      "rating":4.2,
+      "price": 530.00
+    },
+    {
+      "id": 38,
+      "name": "Tropical Blossom Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceTropicalBlossomHoney250gm.png?v=1683144415&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney500gmbacktwo.png?v=1683144327&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceJamunHoney250gmback.png?v=1683144327&width=420",
+
+      "description":" Tropical Blossom honey is unique in its taste because of the tinge of bitterness it carries. The sweetness, sourness, and the bitter tinge when combined make for a true surprise to your taste buds. ",
+      "rating":3.9,
+      "price": 420.00
+    },
+    {
+      "id": 39,
+      "name": "Wild Forest Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceLocalForestHoney250gm.png?v=1683144331&width=640",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":"  the bees collect the nectar. The untouched pristine purity of the forests will be evident in every spoon of this honey. ",
+      "rating":4.8,
+      "price": 630.00
+    },
+    {
+      "id": 40,
+      "name": " Blossom Honey",
+      "image": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceTropicalBlossomHoney250gm.png?v=1683144415&width=420",
+
+      "image1": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmbacktwo.png?v=1683144483&width=420",
+
+      "image2": "https://honeyandspice.in/cdn/shop/products/Honey_SpiceSweetCliffHoney250gmback.png?v=1683144483&width=420",
+
+      "description":" This honey is extremely flavourful, light & buttery. Enjoy this raw honey as a sweetener in your drink, warm toast, or desserts. ",
+      "rating":4.9,
+      "price": 680
+    }
+  ]
+}
