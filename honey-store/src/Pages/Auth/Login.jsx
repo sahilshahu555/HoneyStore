@@ -76,7 +76,7 @@ const LoginPage = () => {
 
   return (
     <div className="login-container">
-      <div className="cut-button" onClick={handleCutClick}>
+      <div style={{margin:"auto",marginRight:"310px"}}  className="cut-button" onClick={handleCutClick}>
         &#10005;
       </div>
       <h1>LOGIN</h1>

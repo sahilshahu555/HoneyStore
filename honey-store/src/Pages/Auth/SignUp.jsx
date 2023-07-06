@@ -78,10 +78,11 @@ const SignupPage = () => {
       style={{ height: "370px", maxWidth: "450px" }}
       className="login-container"
     >
-      <div className="cut-button" onClick={handleCutClick}>
+      <div style={{margin:"auto",marginRight:"350px"}} className="cut-button" onClick={handleCutClick}>
         &#10005;
       </div>
-      <h1>SIGN UP</h1>
+      <h1 style={{fontSize:"larger", fontFamily:
+              "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"}}>Create an Account</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <input
