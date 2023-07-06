@@ -58,7 +58,6 @@ for(let i=0; i<total; i++){
    
 
 
-console.log(sort)
   return (
     <div id='product'>
         <div style={{display:"grid",gridTemplateColumns:"repeat(1,1fr)",padding:"10px"}}>
@@ -90,7 +89,7 @@ console.log(sort)
 
               {/*  */}
               <b>Sort Order:-</b>
-            <select value={sortBy} onChange={(e)=>{setSortOrder(e.target.value); setPage(1);}}>
+            <select value={sortOrder} onChange={(e)=>{setSortOrder(e.target.value); setPage(1);}}>
              <option value="asc">{sortBy==="price"|| sortBy==="rating"? "Low to High":"ASCENDING"}</option>
              <option value="desc">{sortBy==="price"|| sortBy==="rating"? "High to Low":"DESCENDING"}</option>
             </select>
@@ -112,7 +111,6 @@ console.log(sort)
             <b>Limit By :- </b>
             <select value={limit} onChange={(e)=>{setLimit(e.target.value);setPage(1); }}>
               <option value="8">8</option>
-              <option value="10">10</option>
               <option value="12">12</option>
               <option value="15">15</option>
               <option value="20">20</option>
