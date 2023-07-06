@@ -1,11 +1,112 @@
-import React from 'react'
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "../Auth/Login.css"; // Import CSS module
+import { useSelector } from "react-redux";
+// import LoginData from "../../db.json"
 
-const Login = () => {
+const LoginPage = () => {
+  const navigate = useNavigate();
+  const { loginData } = useSelector((store) => store);
+
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const validateForm = () => {
+    const { email, password } = formData;
+    const errors = {};
+
+    // Email validation
+    if (!email) {
+      errors.email = "Email is required.";
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+      errors.email = "Email is invalid.";
+    }
+
+    // Password validation
+    if (!password) {
+      errors.password = "Password is required.";
+    } else if (password.length < 6) {
+      errors.password = "Password should be at least 6 characters long.";
+    }
+
+    setErrors(errors);
+
+    // Return true if there are no errors
+    return Object.keys(errors).length === 0;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (validateForm()) {
+      // Check if the email and password match a signup
+      const signupData = loginData;
+
+      const matchedSignup = signupData.find(
+        (signup) =>
+          signup.email === formData.email &&
+          signup.password === formData.password
+      );
+
+      if (matchedSignup) {
+        // Redirect to the homepage
+        navigate("/");
+      } else {
+        // Handle invalid login credentials
+        setErrors({ password: "Invalid email or password." });
+      }
+    }
+  };
+
+  const handleCutClick = () => {
+    navigate("/signup"); // Redirect to homepage
+  };
+
   return (
-    <div>
-      Login 
+    <div className="login-container">
+      <div className="cut-button" onClick={handleCutClick}>
+        &#10005;
+      </div>
+      <h1>LOGIN</h1>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <input
+            placeholder="Enter your Email"
+            type="email"
+            name="email"
+            required
+            value={formData.email}
+            onChange={handleInputChange}
+          />
+          {errors.email && <span>{errors.email}</span>}
+        </div>
+        <div>
+          <input
+            placeholder="Enter your Password"
+            type="password"
+            name="password"
+            required
+            value={formData.password}
+            onChange={handleInputChange}
+          />
+          {errors.password && <span>{errors.password}</span>}
+        </div>
+        <button type="submit">PROCEED</button>
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default LoginPage;

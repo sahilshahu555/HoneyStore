@@ -1,0 +1,3 @@
+const ADD_LOGIN_DATA = "ADD_LOGIN_DATA";
+
+export { ADD_LOGIN_DATA };
