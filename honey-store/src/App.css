@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ font-family:  Roboto,sans-serif;
 }
 #navbar>a{
 text-decoration: none;
@@ -12,11 +13,14 @@ margin: 2rem;
 }
 /* PRODUCT CSS START */
 #product{
-  background-color:  rgb(143, 158, 158);
+  /* background-color:  rgb(255, 255, 255); */
+  background-color: #84fb95;
+background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%);
 }
 
 #product img{
   width: 100vh;
+  
 }
  #product-item h1{
   font-weight: bolder;
@@ -30,7 +34,8 @@ margin: 2rem;
 #product-item{
   background-color: rgb(255, 255, 255);
  transition : all 0.5s ease-in-out;
- box-shadow: rgba(255, 70, 70, 0.717) 0px 5px 15px;
+ /* box-shadow: rgb(85, 85, 82) 0px 5px 15px; */
+ border: 2px solid black;
 }
 #product-item:hover{
   transform: scale(1.08);
@@ -41,7 +46,7 @@ margin: 2rem;
   padding: 5px 10px;
   border-radius: 10px;
   margin: 5px;
-  width: 70%;
+  width: 60%;
   font-weight: bold;
 }
 #product-item > button:hover{
@@ -55,32 +60,48 @@ margin: 2rem;
   align-items: center;
   gap:20px;
  font-weight: bolder;
+ margin-left: -20px;
 
 }
 
 .pagination button{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   border-radius: 10px;
   padding: 10px;
-  margin:20px ;
+  /* margin:10px ; */
 }
 
 #sorting{
- display: grid;
- grid-template-columns: repeat(3,1fr);
- margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+ background-color: rgb(255, 255, 255);
+ /* box-shadow: rgba(255, 255, 255, 0.97) 0px 5px 15px; */
+ border: 2px solid black;
+ padding: 10px;
+ margin: 10px;
+ border-radius: 10px;
+}
+
+#sorting div {
+  display: flex;
+ align-items: center;
+
 }
 
 #sorting select{
   background-color:rgb(149, 239, 46) ;
   padding: 5px;
   border-radius: 10px;
-  
+  margin: 0px 10px;
+  font-weight: bold;
+  font-size: 12px;
 }
 #sorting b{
-  color: rgb(255, 255, 255);
+  color: rgb(74, 70, 70);
+  margin-left: 10px;
 }
 #sorting button{
   margin:10px 20px 0px 20px;

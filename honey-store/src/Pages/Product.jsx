@@ -42,23 +42,22 @@ const Product = () => {
     getHoney({ page, limit, sortBy, sortOrder })
     .then((res)=>Dispatch(getProductData(res.data))).catch(()=>Dispatch(getError()))
     }
+
 useEffect(()=>{
     getData(page, limit, sortBy, sortOrder);
 },[page, limit, sortBy, sortOrder ])
 
-const arr=[4];
-for(let i=0; i<4; i++){
+let total= Math.ceil(40/limit);
+
+const arr=[total];
+for(let i=0; i<total; i++){
   arr[i]=i+1;
 }
 
-  productData=productData.sort((a,b)=>{
-    if(sort=== "lth"){ return a.price - b.price; }
-   if(sort=== "htl"){ return b.price - a.price; }
-  })
+ 
    
 
 
-console.log(sort)
   return (
     <div id='product'>
         <div style={{display:"grid",gridTemplateColumns:"repeat(1,1fr)",padding:"10px"}}>
@@ -78,26 +77,44 @@ console.log(sort)
 {/* SHORTING by Price */}
       <div id='sorting'>
         <div>
+         <div>
           <b>Sort By :- </b>
           <select value={sortBy} onChange={(e)=>{setSortBy(e.target.value);setPage(1); }}>
             <option value="name">Name</option>
             <option value="price">Price</option>
             <option value="rating">Rating</option>
           </select>
+          </div>
+            <div>
+
+              {/*  */}
+              <b>Sort Order:-</b>
+            <select value={sortOrder} onChange={(e)=>{setSortOrder(e.target.value); setPage(1);}}>
+             <option value="asc">{sortBy==="price"|| sortBy==="rating"? "Low to High":"ASCENDING"}</option>
+             <option value="desc">{sortBy==="price"|| sortBy==="rating"? "High to Low":"DESCENDING"}</option>
+            </select>
+              {/*  */}
+           
+          </div>
+        </div>
+        
+
+          <div className='pagination'>
+          {arr.map((elm,id)=>(
+            <button key={id} disabled={page===elm} onClick={()=>setPage(elm)}
+            style={{backgroundColor:page===elm? "red": 'rgb(149, 239, 46)'}}
+            >{elm}</button>
+          ))} 
         </div>
 
-        <div className='pagination'>
-        {arr.map((elm,id)=>(
-          <button key={id} disabled={page===elm} onClick={()=>setPage(elm)}
-          style={{backgroundColor:page===elm? "red": 'white'}}
-          >{elm}</button>
-        ))} 
-      </div>
-
         <div id="sort_order_section">
-         <b>Sort Order:-</b> 
-          <button  onClick={() => {setSortOrder("asc"); setPage(1);}}>ASCENDING</button>
-          <button  onClick={() => {setSortOrder("desc");setPage(1);}}>DESCENDING</button>
+            <b>Limit By :- </b>
+            <select value={limit} onChange={(e)=>{setLimit(e.target.value);setPage(1); }}>
+              <option value="8">8</option>
+              <option value="12">12</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
         </div>
       </div>
 
