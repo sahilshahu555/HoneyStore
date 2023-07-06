@@ -76,32 +76,32 @@ const LoginPage = () => {
 
   return (
     <div className="login-container">
-      <div style={{margin:"auto",marginRight:"310px"}}  className="cut-button" onClick={handleCutClick}>
+      <div style={{margin:"auto",marginRight:"310px",cursor:"pointer"}}  className="cut-button" onClick={handleCutClick}>
         &#10005;
       </div>
       <h1>LOGIN</h1>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div  style={{marginBottom:"15px"}}>
           <input
             placeholder="Enter your Email"
             type="email"
             name="email"
-            required
+            // required
             value={formData.email}
             onChange={handleInputChange}
           />
-          {errors.email && <span>{errors.email}</span>}
-        </div>
-        <div>
+        <div>{errors.email && <span>{errors.email}</span>}</div>  
+        </div >
+        <div  style={{marginBottom:"15px"}}>
           <input
             placeholder="Enter your Password"
             type="password"
             name="password"
-            required
+            // required
             value={formData.password}
             onChange={handleInputChange}
           />
-          {errors.password && <span>{errors.password}</span>}
+         <div> {errors.password && <span>{errors.password}</span>}</div>
         </div>
         <button type="submit">PROCEED</button>
       </form>

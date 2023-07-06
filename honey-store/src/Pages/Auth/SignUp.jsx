@@ -75,59 +75,63 @@ const SignupPage = () => {
 
   return (
     <div
-      style={{ height: "370px", maxWidth: "450px" }}
+      style={{ height: "auto", maxWidth: "450px" }}
       className="login-container"
     >
-      <div style={{margin:"auto",marginRight:"350px"}} className="cut-button" onClick={handleCutClick}>
+      <div style={{margin:"auto",marginRight:"350px",cursor:"pointer"}} className="cut-button" onClick={handleCutClick}>
         &#10005;
       </div>
       <h1 style={{fontSize:"larger", fontFamily:
               "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"}}>Create an Account</h1>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div style={{marginBottom:"15px"}}>
           <input
             placeholder="Enter your Name"
             type="text"
             name="name"
-            required
+            // required
             value={formData.name}
             onChange={handleInputChange}
           />
-          {errors.name && <span>{errors.name}</span>}
+        <div className="errorDiv">  {errors.name && <span>{errors.name}</span>}</div>
         </div>
-        <div>
+        
+        <div  style={{marginBottom:"15px"}}>
           <input
             placeholder="Enter your Email"
             type="email"
             name="email"
-            required
+            // required
             value={formData.email}
             onChange={handleInputChange}
           />
-          {errors.email && <span>{errors.email}</span>}
+         <div className="errorDiv">{errors.email && <span>{errors.email}</span>}</div>
         </div>
-        <div>
+       
+        <div  style={{marginBottom:"15px"}}>
           <input
             placeholder="Enter your Password"
             type="password"
             name="password"
-            required
+            // required
             value={formData.password}
             onChange={handleInputChange}
           />
-          {errors.password && <span>{errors.password}</span>}
+          <div className="errorDiv"> {errors.password && <span>{errors.password}</span>}</div>
         </div>
-        <div>
+       
+        <div  style={{marginBottom:"15px"}}>
           <input
             placeholder="Confirm Password"
             type="password"
             name="confirmPassword"
-            required
+            // required
             value={formData.confirmPassword}
             onChange={handleInputChange}
           />
-          {errors.confirmPassword && <span>{errors.confirmPassword}</span>}
+         <div className="errorDiv">  {errors.confirmPassword && <span>{errors.confirmPassword}</span>}</div>
         </div>
+       
         <button
           style={{
             fontFamily:

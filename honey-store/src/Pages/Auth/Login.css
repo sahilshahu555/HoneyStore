@@ -1,6 +1,6 @@
 .login-container {
     border: 1px solid#266753;
-    height: 330px;
+    /* height: auto; */
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -48,7 +48,7 @@
   .login-container input {
     height: 35px;
     padding: 10px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     border-bottom: 1px solid #ccc;
     border-radius: 5px;
     /* border-bottom: 1px solid #266753; */
@@ -85,9 +85,12 @@
   
   .login-container span {
     color: red;
-    margin-bottom: 10px;
+    /* margin-bottom: 30pxpx; */
+    margin: auto;
+    /* margin-right: 20px; */
+    
     font-size: small;
-   margin-left: 47px;
+   /* margin-left: 47px; */
     
     /* border: 2px solid black; */
   }
