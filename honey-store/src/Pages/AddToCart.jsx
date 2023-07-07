@@ -302,7 +302,7 @@ const AddToCartForm = () => {
       {step === 1 && renderStep1()}
       {step === 2 && renderStep2()}
       {step === 3 && renderStep3()}
-      {step === 4 && (order.paymentMethod === 'card' ? renderStep4Card() : <>Payment by paypal</>)}
+      {step === 4 && (order.paymentMethod === 'card' ? renderStep4Card() : <>Payment by PayPal</>)}
 
 
       <style jsx>{`
