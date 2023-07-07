@@ -79,7 +79,8 @@ const LoginPage = () => {
       <div style={{margin:"auto",marginRight:"310px",cursor:"pointer"}}  className="cut-button" onClick={handleCutClick}>
         &#10005;
       </div>
-      <h1>LOGIN</h1>
+      <div style={{borderBottom:"1px solid black", marginBottom:"20px",height:"36px"}}><h1>LOGIN</h1></div>
+    
       <form onSubmit={handleSubmit}>
         <div  style={{marginBottom:"15px"}}>
           <input

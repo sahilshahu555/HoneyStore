@@ -81,10 +81,13 @@ const SignupPage = () => {
       <div style={{margin:"auto",marginRight:"350px",cursor:"pointer"}} className="cut-button" onClick={handleCutClick}>
         &#10005;
       </div>
+      <div style={{borderBottom:"1px solid black", marginBottom:"20px",height:"36px"}} >
       <h1 style={{fontSize:"larger", fontFamily:
               "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"}}>Create an Account</h1>
+      </div>
+     
       <form onSubmit={handleSubmit}>
-        <div style={{marginBottom:"15px"}}>
+        <div className="mainDiv" style={{marginBottom:"15px"}}>
           <input
             placeholder="Enter your Name"
             type="text"
