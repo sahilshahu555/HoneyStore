@@ -124,7 +124,7 @@ const Home = () => {
                             justifyContent={"space-evenly"}
                         >
                             <Text cursor={'pointer'} onClick={() => {
-                                navigate("/products")
+                                navigate("/product")
                             }}>Products</Text>
                             <Text onClick={scrollToAboutUs} cursor={'pointer'}>About Us</Text>
                             <Text onClick={scrollToBlog} cursor={'pointer'}>Our Blog</Text>
