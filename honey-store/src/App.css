@@ -116,3 +116,84 @@ justify-content: space-between;
   background-color: rgb(243, 63, 47);
 }
 /* PRODUCT CSS END */
+/* PRODUCT DETAILS  CSS START*/
+
+#productDetails{
+  display: flex;
+  justify-content: space-around;
+  background-color: #84fb95;
+  background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%);
+}
+
+#productDetails > #left{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ border: 2px solid black;
+ border-radius: 10px;
+ margin: 10px;
+}
+
+#productDetails > #left>img{
+  width: 25vw;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+}
+
+
+#productDetails > #right h1{
+  font-weight: bolder;
+  font-size: 50px;
+  color: green;
+  margin: 10px;
+}
+
+#productDetails > #right h1+b{
+  color: rgb(232, 58, 27);
+  margin: 20px;
+  font-size: 23px;
+
+}
+#productDetails > #right b{
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  font-size: 24px;
+  
+
+}
+
+#productDetails > #right > div button{
+  width: 24%;
+  margin: auto;
+  font-weight: bold;
+  background-color: rgb(255, 247, 0);
+  color: rgb(61, 58, 58);
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#productDetails > #right button:hover{
+background-color: rgb(242, 88, 71);
+}
+
+#aboutProduct{
+  width: 60%;
+  margin: auto;
+  
+}
+#aboutProduct h2{
+  margin: 20px;
+  font-weight: bolder;
+}
+#aboutProduct p{
+text-align: left;
+}
+/* PRODUCT DETAILS  CSS END*/
+
+
