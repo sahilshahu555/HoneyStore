@@ -102,7 +102,7 @@ for(let i=0; i<total; i++){
           <div className='pagination'>
           {arr.map((elm,id)=>(
             <button key={id} disabled={page===elm} onClick={()=>setPage(elm)}
-            style={{backgroundColor:page===elm? "red": 'rgb(40, 140, 110)'}}
+            style={{backgroundColor:page===elm? "black": 'rgb(40, 140, 110)'}}
             >{elm}</button>
           ))} 
         </div>
@@ -147,7 +147,7 @@ for(let i=0; i<total; i++){
       <div className='pagination'>
         {arr.map((elm,id)=>(
           <button key={id} disabled={page===elm} onClick={()=>setPage(elm)}
-          style={{backgroundColor:page===elm? "red": 'white'}}
+          style={{backgroundColor:page===elm? "gray": 'white'}}
           >{elm}</button>
         ))} 
       </div>

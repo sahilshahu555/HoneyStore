@@ -6,10 +6,14 @@ const initialState={
      productData:[],
      productDetails:{},
      cartItems:[],
+     loginData: [],
 }
 const reducer = (state=initialState,{type,payload}) => {
     switch (type) {
         case "REQUEST":{ return{ ...state,isLoading:true}}
+
+        case "ADD_LOGIN_DATA":
+           { return { ...state, loginData: [...state.loginData, payload] }}
 
         case "PRODUCTSUCCESS":{ return{ ...state,isLoading:false,productData:payload}}
         

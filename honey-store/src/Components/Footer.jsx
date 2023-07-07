@@ -40,7 +40,7 @@ const Footer = ()=>{
               <Text color={"white"} fontSize={"13px"}>
                 SIGN UP FOR NEWS, UPDATES AND SPECIAL OFFERS! LET IT BEE :
               </Text>
-              <Flex
+              {/* <Flex
                 w={"100%"}
                 alignItems={"center"}
                 justifyContent={"center"}
@@ -62,14 +62,14 @@ const Footer = ()=>{
                 >
                   SUBSCRIBE
                 </Button>
-              </Flex>
+              </Flex> */}
               <Box>
-                <Flex gap={"10px"}>
+                {/* <Flex gap={"10px"}>
                   <Checkbox />
                   <Text color={"rgb(82,146,126)"}>
                     By pressing the button you agree to our terms and conditions
                   </Text>
-                </Flex>
+                </Flex> */}
               </Box>
             </Flex>
 

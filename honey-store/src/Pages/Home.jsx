@@ -513,7 +513,7 @@ const Home = () => {
                         <Button
                             zIndex={"100"}
                             onClick={() => {
-                                navigate("/products");
+                                navigate("/product");
                             }}
                             position={"relative"}
                             border={"1px solid black"}
