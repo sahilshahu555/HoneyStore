@@ -128,9 +128,8 @@ const Home = () => {
                             }}>Products</Text>
                             <Text onClick={scrollToAboutUs} cursor={'pointer'}>About Us</Text>
                             <Text onClick={scrollToBlog} cursor={'pointer'}>Our Blog</Text>
-                            <Text cursor={'pointer'} onClick={() => {
-                                navigate("/contact")
-                            }}>Contacts</Text>
+                            <Text cursor={'pointer'} 
+                            >Contacts</Text>
                         </Flex>
                     </Box>
                 </Flex>
