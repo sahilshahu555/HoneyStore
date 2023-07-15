@@ -11,7 +11,7 @@ const ProductDetails = () => {
 
   useEffect(() => {
     Dispatch(getRequest())
-    axios.get(`http://localhost:8080/honeyData/${id}`)
+    axios.get(`https://backendhoneystore.onrender.com/honeyData/${id}`)
     .then((res)=> Dispatch(getProductDetailseData(res.data)))
     .catch(()=> Dispatch(getError()))
   }, [])

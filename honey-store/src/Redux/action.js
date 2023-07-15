@@ -8,6 +8,8 @@ export const setCartData=(payload)=>{ return{type:"ADDTOCART",payload:payload} }
 export const removeCartData=(payload)=>{ return{type:"REMOVETOCART",payload:payload} }
 
 export const getError=()=>{return{type:"FAILUER"} }
+export const getReset=()=>{return{type:"RESETCART"} }
+
 
 
 // login action 

@@ -29,7 +29,7 @@ const Product = () => {
   
     return axios({
        method: "get", 
-       url: `http://localhost:8080/honeyData`,  
+       url: `https://backendhoneystore.onrender.com/honeyData`,  
        params: queryParams
     })
   }

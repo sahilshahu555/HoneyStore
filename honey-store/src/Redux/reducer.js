@@ -23,7 +23,9 @@ const reducer = (state=initialState,{type,payload}) => {
 
         case "REMOVETOCART":{ return{ ...state,isLoading:false,cartItems:[...state.cartItems.filter((elm)=>{return elm.id !== payload.id})]}}
 
-        case "FAILUER":{ return{ ...state,isError:true,isLoading:false}}
+        case "FAILUER":{ return{ ...state,isError:true,isLoading:false,productData:[]}}
+
+        case "RESETCART":{ return{ ...state,cartItems:[]}}
 
         default: {return state}
             

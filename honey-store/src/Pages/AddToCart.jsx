@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import {
   Box,
   Heading,
@@ -293,6 +294,7 @@ const AddToCartForm = () => {
   };
 
   const renderStep4Card = () => {
+
     return (
       <Box
         fontSize="20"
@@ -373,7 +375,7 @@ const AddToCartForm = () => {
         <Button className="back" onClick={handleBackStep}>
           Back
         </Button>
-        <Button className="proceed" onClick={() => navigate("/thankyou")}>
+        <Button className="proceed" onClick={() => {  navigate("/thankyou")}}>
           Payment
         </Button>
       </Box>
