@@ -586,7 +586,7 @@ const Home = () => {
                                 style={{
                                     width: "80%",
                                     marginTop: "20px",
-                                    border: "2px solid rgb(161,160,158)",
+                                    border: "1px solid rgb(161,160,158)",
                                 }}
                             ></hr>
                             <Text w={"90%"} size={"18px"} fontWeight={"bold"}>
